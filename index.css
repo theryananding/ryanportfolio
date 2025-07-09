@@ -54,8 +54,12 @@ h2 {
   }
   
   .hero-heading {
-    font-size: 2rem;
     margin: 0 0 0.5rem 0;
+    color: rgb(27, 27, 27);
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.05rem;
+    font-size: var(--font-size-2xl);
   }
   
   .hero-subtext {
