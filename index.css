@@ -154,10 +154,10 @@ h2 {
     transform: translateX(-180px);
 }
 
-.project-grid {
+.project-grid-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 16px;
 }
 
@@ -183,14 +183,6 @@ h2 {
 
 #p6 {
     grid-column: 3 / 4;
-}
-
-#p7 {
-    grid-column: 1 / 2;
-}
-
-#p8 {
-    grid-column: 2 / 4;
 }
 
 .project {
@@ -248,7 +240,7 @@ h2 {
         margin-top: 100px;
     }
 
-    .project-grid {
+    .project-grid-1 {
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -300,10 +292,12 @@ h2 {
         justify-content: center;
     }
 
-    .project-grid {
+    .project-grid-1 {
         margin-top: 16px;
     }
 }
+
+/* mobile nav menu animation */
 
 .animateBar1 {
     animation: rotateBar1 0.5s;
